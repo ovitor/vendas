@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>produtos à venda - vitor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <div id="app">
+        <h1 class="title has-text-centered">{{ website_title }}</h1>
+        <div class="columns is-multiline">
+          <div class="column is-4" v-for="product in products" :key="product.id">
+            <product
+              :title="product.title"
+              :description="product.description"
+              :price="product.price"
+              :quantity="product.quantity"
+              :image="product.image"
+              :more_info="product.more_info"
+              :sold="product.sold"
+              :condition="product.condition"
+            >
+            </product>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  <script src="app.js"></script>
+  </body>
+</html>

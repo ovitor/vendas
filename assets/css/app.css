@@ -1,0 +1,13 @@
+.price {
+  font-size: 50px;
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
