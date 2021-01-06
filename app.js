@@ -39,7 +39,7 @@ Vue.component('product', {
 var app = new Vue({
   el: '#app',
   data: {
-    website_title: 'produtos à venda',
+    website_title: 'produtos a venda',
     products: [
       { 'id': 1, 'title': 'Panda Board', 'description': 'Placa de desenvolvimento ARM', 'price': '50,00', 'quantity': 1, 'image': 'produto-001.jpg', 'more_info': 'https://elinux.org/PandaBoard', 'condition': 'usado', 'sold': false },
       { 'id': 2, 'title': 'Leitor RFID', 'description': 'Leitor RFID com 2 tags', 'price': '15,00', 'quantity': 1, 'image': 'produto-002.jpg', 'condition': 'novo', 'sold': false},
