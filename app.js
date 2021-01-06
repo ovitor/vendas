@@ -47,7 +47,7 @@ var app = new Vue({
       { 'id': 4, 'title': 'Sensor MQ-2', 'description': 'Sensor de gás butano', 'price': '10,00', 'quantity': 1, 'image': 'produto-004.jpg', 'condition': 'novo', 'sold': false },
       { 'id': 5, 'title': 'Display', 'description': 'Display Nokia 5110', 'price': '20,00/peça', 'quantity': 2, 'image': 'produto-005.jpg', 'condition': 'novo', 'sold': false },
       { 'id': 6, 'title': 'Adaptador FTDI', 'description': 'Adaptador FTDI', 'price': '5,00', 'quantity': 1, 'image': 'produto-006.jpg', 'condition': 'novo', 'sold': false },
-      { 'id': 7, 'title': 'ESP 12F', 'description': 'Módulo ESP 12F', 'price': '5,00', 'quantity': 1, 'image': 'produto-007.jpg', 'condition': 'novo', 'sold': false },
+      { 'id': 7, 'title': 'Módulo Bluetooth 4.0', 'description': 'Módulo bluetooth 4.0 HM-10', 'price': '10,00/peça', 'quantity': 4, 'image': 'produto-007.jpg', 'condition': 'novo', 'sold': false },
       { 'id': 8, 'title': 'Protoboard', 'description': 'PCB protoboard, diversos tamanhos', 'price': '10,00', 'quantity': 1, 'image': 'produto-008.jpg', 'condition': 'usado', 'sold': false },
       { 'id': 9, 'title': 'VoCore', 'description': 'Sistema embarcado VoCore', 'price': '30,00/peça', 'quantity': 2, 'image': 'produto-009.jpg', 'more_info': 'https://vocore.io/v2u.html', 'condition': 'novo', 'sold': false },
       { 'id': 10, 'title': 'Adaptador MicroSD para SD', 'description': 'Adaptador MicroSD para SD Card', 'price': '10,00', 'quantity': '+ de 5', 'image': 'produto-010.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
