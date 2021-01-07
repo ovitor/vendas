@@ -5,6 +5,7 @@ Vue.component('product', {
     }
   },
   props: [
+    'id',
     'title',
     'description',
     'price',
@@ -27,6 +28,7 @@ Vue.component('product', {
           {{ title }} <br> 
           {{ description }} <span v-if="more_info"> - <a :href="more_info" target="_blank">Mais informações</a> </span> <br>
           <div class="tags">
+            <span class="tag is-danger">código: {{ id }}</span>
             <span class="tag" :class="{'is-info': condition === 'novo', 'is-warning': condition === 'usado' }">condição: {{ condition }}</span>
             <span class="tag" :class="{'is-info': quantity => 2, 'is-warning': quantity == 1, 'is-success': quantity >= 5 }">quantidade: {{ quantity }} </span>
           </div>
@@ -62,7 +64,7 @@ var app = new Vue({
       { 'id': 19, 'title': 'Buzzer', 'description': 'Buzzer', 'price': '5,00', 'quantity': 1, 'image': 'produto-019.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       // { 'id': 22, 'title': 'Arduino UNO', 'description': 'Arduino UNO', 'price': '5,00', 'quantity': 1, 'image': 'produto-022.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 23, 'title': 'Sensor de umidade', 'description': 'Sensor de umidade DHT11', 'price': '5,00', 'quantity': 1, 'image': 'produto-023.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
-      { 'id': 24, 'title': 'Fonte de computador', 'description': 'Fonte Akasa de computador', 'price': '10,00', 'quantity': 1, 'image': 'produto-024.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
+      { 'id': 24, 'title': 'Fonte de computador', 'description': 'Fonte Akasa de computador', 'price': '10,00', 'quantity': 1, 'image': 'produto-024.jpg', 'more_info': '', 'condition': 'usado', 'sold': false },
       { 'id': 25, 'title': 'Cabo P2 - USB', 'description': 'Cabo P2 - USB', 'price': '0,00', 'quantity': 1, 'image': 'produto-025.jpg', 'more_info': '', 'condition': 'usado', 'sold': false },
       { 'id': 26, 'title': 'Servo motor', 'description': 'Servo motor', 'price': '40,00', 'quantity': 1, 'image': 'produto-026.jpg', 'more_info': '', 'condition': 'usado', 'sold': false },
       { 'id': 27, 'title': 'Servo SG90', 'description': 'Servo motor SG90', 'price': '15,00', 'quantity': 1, 'image': 'produto-027.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
