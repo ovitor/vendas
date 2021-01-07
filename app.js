@@ -43,7 +43,7 @@ var app = new Vue({
   data: {
     website_title: 'produtos a venda',
     products: [
-      { 'id': 1, 'title': 'Panda Board', 'description': 'Placa de desenvolvimento ARM', 'price': '50,00', 'quantity': 1, 'image': 'produto-001.jpg', 'more_info': 'https://elinux.org/PandaBoard', 'condition': 'usado', 'sold': false },
+      // { 'id': 1, 'title': 'Panda Board', 'description': 'Placa de desenvolvimento ARM', 'price': '50,00', 'quantity': 1, 'image': 'produto-001.jpg', 'more_info': 'https://elinux.org/PandaBoard', 'condition': 'usado', 'sold': false },
       // { 'id': 2, 'title': 'Leitor RFID', 'description': 'Leitor RFID com 2 tags', 'price': '15,00', 'quantity': 1, 'image': 'produto-002.jpg', 'condition': 'novo', 'sold': false},
       { 'id': 3, 'title': 'Hub', 'description': 'Hub 8 portas', 'price': '0,00', 'quantity': 1, 'image': 'produto-003.jpg', 'condition': 'usado', 'sold': false },
       { 'id': 4, 'title': 'Sensor MQ-2', 'description': 'Sensor de gás butano', 'price': '10,00', 'quantity': 1, 'image': 'produto-004.jpg', 'condition': 'novo', 'sold': false },
@@ -51,7 +51,7 @@ var app = new Vue({
       { 'id': 6, 'title': 'Adaptador FTDI', 'description': 'Adaptador FTDI', 'price': '5,00', 'quantity': 1, 'image': 'produto-006.jpg', 'condition': 'novo', 'sold': false },
       { 'id': 7, 'title': 'Módulo Bluetooth 4.0', 'description': 'Módulo bluetooth 4.0 HM-10', 'price': '10,00/peça', 'quantity': 4, 'image': 'produto-007.jpg', 'condition': 'novo', 'sold': false },
       { 'id': 8, 'title': 'Protoboard', 'description': 'PCB protoboard, diversos tamanhos', 'price': '10,00', 'quantity': 1, 'image': 'produto-008.jpg', 'condition': 'usado', 'sold': false },
-      { 'id': 9, 'title': 'VoCore', 'description': 'Sistema embarcado VoCore', 'price': '30,00/peça', 'quantity': 2, 'image': 'produto-009.jpg', 'more_info': 'https://vocore.io/v2u.html', 'condition': 'novo', 'sold': false },
+      // { 'id': 9, 'title': 'VoCore', 'description': 'Sistema embarcado VoCore', 'price': '30,00/peça', 'quantity': 2, 'image': 'produto-009.jpg', 'more_info': 'https://vocore.io/v2u.html', 'condition': 'novo', 'sold': false },
       { 'id': 10, 'title': 'Adaptador MicroSD para SD', 'description': 'Adaptador MicroSD para SD Card', 'price': '10,00', 'quantity': '+ de 5', 'image': 'produto-010.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 11, 'title': 'Sensor de umidade do solo', 'description': 'Módulo sensor de umidade do solo', 'price': '5,00', 'quantity': 2, 'image': 'produto-011.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 12, 'title': 'Sensor de toque', 'description': 'Sensor de toque', 'price': '5,00', 'quantity': 1, 'image': 'produto-012.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
@@ -73,7 +73,7 @@ var app = new Vue({
       { 'id': 31, 'title': 'Dongle USB Bluetooth', 'description': 'Dongle USB Bluetooth', 'price': '5,00', 'quantity': 1, 'image': 'produto-031.jpg', 'more_info': '', 'condition': 'usado', 'sold': false },
       // { 'id': 32, 'title': 'Micro motor', 'description': 'Micro motor vibracall', 'price': '50,00', 'quantity': '+ de 20', 'image': 'produto-032.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 34, 'title': 'Adaptador Ethernet', 'description': 'Adaptador Ethernet para arduino', 'price': '0,00', 'quantity': 1, 'image': 'produto-034.jpg', 'more_info': '', 'condition': 'usado', 'sold': false },
-      { 'id': 35, 'title': 'Módulo Matriz de Led', 'description': 'Módulo Display de Led 8x8', 'price': '10,00', 'quantity': 2, 'image': 'produto-035.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
+      { 'id': 35, 'title': 'Módulo Matriz de Led', 'description': 'Módulo Display de Led 8x8', 'price': '10,00/peça', 'quantity': 2, 'image': 'produto-035.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 36, 'title': 'Adaptador FTDI 232', 'description': 'Adaptador FDTI 232', 'price': '5,00', 'quantity': 1, 'image': 'produto-036.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 37, 'title': 'Display 7 segmentos', 'description': 'Display 7 segmentos', 'price': '5,00', 'quantity': 2, 'image': 'produto-037.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
       { 'id': 38, 'title': 'Módulo carregador de bateria', 'description': 'Módulo carregador de bateria', 'price': '5,00', 'quantity': 1, 'image': 'produto-038.jpg', 'more_info': '', 'condition': 'novo', 'sold': false },
